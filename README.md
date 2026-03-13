@@ -27,10 +27,10 @@
 | 14 | IM 多因子策略 | 多因子 | IM | [14_im_multi_factor.py](strategies/14_im_multi_factor.py) |
 | 15 | IF 波动率突破策略 | 波动率策略 | IF | [15_if_vol_breakout.py](strategies/15_if_vol_breakout.py) |
 | 16 | IC 动量策略 | 动量策略 | IC | [16_ic_momentum.py](strategies/16_ic_momentum.py) |
-| 17 | IF 日内突破策略 | 日内突破 | IF | [17_if_intraday_breakout.py](strategies/17_if_intraday_breakout.py) |
-| 18 | 股指期货跨期套利策略 | 跨期套利 | IF | [18_if_calendar_spread.py](strategies/18_if_calendar_spread.py) |
-| 19 | 国债期货均值回归策略 | 均值回归 | TF | [19_tf_mean_reversion.py](strategies/19_tf_mean_reversion.py) |
-| 20 | IM 趋势策略 | 趋势跟踪 | IM | [20_im_trend.py](strategies/20_im_trend.py) |
+| 17 | IM 动量策略 | 动量策略 | IM | [17_im_momentum.py](strategies/17_im_momentum.py) |
+| 18 | TS 均线交叉策略 | 均线策略 | TS | [18_ts_ma_crossover.py](strategies/18_ts_ma_crossover.py) |
+| 19 | 中证1000布林带趋势策略 | 布林带趋势 | IM | [19_im_boll_trend.py](strategies/19_im_boll_trend.py) |
+| 20 | 国债期货波动率套利策略 | 波动率策略 | TF | [20_tf_volatility.py](strategies/20_tf_volatility.py) |
 
 ## 策略分类
 
@@ -42,6 +42,9 @@
 
 ### 📊 多因子策略（Multi-Factor）
 结合多个因子进行选股和交易。
+
+### 📉 波动率策略（Volatility Trading）
+基于波动率变化进行交易的策略。
 
 ## 环境要求
 
@@ -59,4 +62,4 @@ pip install tqsdk numpy pandas
 
 **持续更新中，欢迎 Star ⭐ 关注**
 
-*更新时间：2026-03-11*
+*更新时间：2026-03-13*
