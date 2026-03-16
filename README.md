@@ -31,6 +31,8 @@
 | 18 | TS 均线交叉策略 | 均线策略 | TS | [18_ts_ma_crossover.py](strategies/18_ts_ma_crossover.py) |
 | 19 | 中证1000布林带趋势策略 | 布林带趋势 | IM | [19_im_boll_trend.py](strategies/19_im_boll_trend.py) |
 | 20 | 国债期货波动率套利策略 | 波动率策略 | TF | [20_tf_volatility.py](strategies/20_tf_volatility.py) |
+| 21 | IF-IC跨品种价差量化策略 | 跨品种套利 | CFFEX.if + CFFEX.ic | [21_if_ic_spread.py](strategies/21_if_ic_spread.py) |
+| 22 | 沪深300多因子量化策略 | 多因子策略 | CFFEX.if | [22_if_multi_factor.py](strategies/22_if_multi_factor.py) |
 
 ## 策略分类
 
