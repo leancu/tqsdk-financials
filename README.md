@@ -33,6 +33,8 @@
 | 20 | 国债期货波动率套利策略 | 波动率策略 | TF | [20_tf_volatility.py](strategies/20_tf_volatility.py) |
 | 21 | IF-IC跨品种价差量化策略 | 跨品种套利 | CFFEX.if + CFFEX.ic | [21_if_ic_spread.py](strategies/21_if_ic_spread.py) |
 | 22 | 沪深300多因子量化策略 | 多因子策略 | CFFEX.if | [22_if_multi_factor.py](strategies/22_if_multi_factor.py) |
+| 23 | 股指期货截面多空策略 | 截面多空 | IF + IC + IH | [23_if_ic_ih_cross_section.py](strategies/23_if_ic_ih_cross_section.py) |
+| 24 | 金融期货多因子轮动策略 | 多因子轮动 | IF + IC + IH | [24_multi_factor_rotation.py](strategies/24_multi_factor_rotation.py) |
 
 ## 策略分类
 
