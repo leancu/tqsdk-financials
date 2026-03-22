@@ -35,6 +35,8 @@
 | 22 | 沪深300多因子量化策略 | 多因子策略 | CFFEX.if | [22_if_multi_factor.py](strategies/22_if_multi_factor.py) |
 | 23 | 股指期货截面多空策略 | 截面多空 | IF + IC + IH | [23_if_ic_ih_cross_section.py](strategies/23_if_ic_ih_cross_section.py) |
 | 24 | 金融期货多因子轮动策略 | 多因子轮动 | IF + IC + IH | [24_multi_factor_rotation.py](strategies/24_multi_factor_rotation.py) |
+| 25 | 股指期货订单流多空策略 | 订单流策略 | CFFEX.if + CFFEX.ic + CFFEX.ih | [25_if_ic_ih_orderflow.py](strategies/25_if_ic_ih_orderflow.py) |
+| 26 | 金融期货协整套利策略 | 协整套利 | CFFEX.if + CFFEX.ic | [26_if_ic_cointegration.py](strategies/26_if_ic_cointegration.py) |
 
 ## 策略分类
 
@@ -66,4 +68,4 @@ pip install tqsdk numpy pandas
 
 **持续更新中，欢迎 Star ⭐ 关注**
 
-*更新时间：2026-03-13*
+*更新时间：2026-03-22*
